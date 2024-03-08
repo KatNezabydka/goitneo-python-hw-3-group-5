@@ -1,5 +1,5 @@
-import Field
-import ValidationError
+from Field import Field
+from ValidationError import ValidationError
 
 def validate_phone(func):
     def wrapper(*args, **kwargs):

@@ -1,6 +1,7 @@
 
-# from main_class_format import AddressBook, Record, ValidationError
-import AddressBook, Record, ValidationError
+from AddressBook import AddressBook
+from Record import Record
+from ValidationError import ValidationError
 
 ERROR_MESSAGES = {
     ValueError: "Give me name and phone/birthday please.",

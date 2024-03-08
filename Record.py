@@ -1,6 +1,6 @@
-import Name
-import Birthday
-import Phone
+from Name import Name
+from Birthday import Birthday
+from Phone import Phone
 
 class Record:
     def __init__(self, name, birthday=None):
